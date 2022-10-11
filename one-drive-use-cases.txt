@@ -1,0 +1,15 @@
+usecases
+--------
+uc#1: 
+upload a file 
+ip: file metadata (version, name, size, relative URL) and the conent, 
+op: success/fail msg
+
+uc#2:
+download a file 
+ip: version, file name
+op: file content
+
+uc#3:
+trigger an automatic sync across all devices when a change happens.
+

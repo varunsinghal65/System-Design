@@ -1,0 +1,13 @@
+usecases
+---------
+
+-objective: seo
+-should be able to download html and store it for seo processing.
+-should be robust, polite, ensure freshness, priority crawling.
+-crawl rate ?? -- 1 billion pages in a single month
+-storage requirements -- for 5 years
+
+Estimates
+----------
+crawl speed/throughput
+storage needed?

@@ -1,0 +1,22 @@
+UC
+------
+UC#1:
+find near-buy businesses
+ip : lat, long, radii
+op : list of business (images, deacription, reviews) in json
+
+UC#2:
+add a business in the system,
+ip : business image, lat, long, description
+
+UC#3:
+add a review for a business
+ip : business identifies, review.
+
+BEC
+---
+DAU: 10 mil, every user performs 10 searches in a day for nearbuy business
+QPS on the near-buy service : 1000 QPS
+Number of business : 10 mil businesses
+
+

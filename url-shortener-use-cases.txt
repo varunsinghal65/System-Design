@@ -1,0 +1,19 @@
+Usecases:
+-------
+
+UC#1:
+shorten the url
+ip : long url
+op : short url
+
+UC#2:
+visit short url, should be redirected to long url
+ip: short url
+op: long url
+
+estimates
+--------------
+100 mil URLs generated everyday
+service will run for 10 years
+365 billion URLs will have to be generated.
+7 is the optimum short URL length.

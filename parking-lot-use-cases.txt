@@ -1,0 +1,31 @@
+UseCases
+----------------------
+UC#0
+create a parking lot
+ip : total slots
+
+UC#1
+park a vehicle, check if slots are available for a vehicle type, then issue a ticket
+ip : vehicle reg num + type
+op : ticket (parking lot name, floor number, slot number, ticket issued time)
+
+UC#2
+perform payment based on time spent in lot
+ip : ticket
+op : payment ref 
+
+UC#3
+unpark a vehicle.
+ip : ticket
+
+Diff vehicle types - 2 wheeler, 4 wheeler?
+Diff rate for diff vehicle types - 2 rates
+traffic : 10,000 park and unpark attempts.
+
+calculations
+---------------
+Assume: 1000 parking lots, each of them receives 10,000 park and un park requests in a day
+QPS on sys : 200
+storage for storing tickets for 5 years : 570 GB
+
+

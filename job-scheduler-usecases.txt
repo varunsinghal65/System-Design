@@ -1,0 +1,16 @@
+UC#1:
+schedule jobs to run 
+-instantly
+-predefined timestamp
+-cron based run
+
+ip : 
+binary that has to be executed,
+TS of execution, 
+priority
+
+UC#2:
+run jobs based on priortiy
+allow dynamic priority changing
+
+
